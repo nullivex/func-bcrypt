@@ -1,0 +1,28 @@
+{
+	 "name":				"openlss/func-bcrypt"
+	,"homepage":			"http://openlss.org"
+	,"description":			"Blowfish Crypt helpers for password hashing"
+	,"license":				"LGPLv2"
+	,"type":				"library"
+	,"keywords": [
+		 "blowfish"
+		,"encryption"
+		,"password"
+		,"hashing"
+	]
+	,"authors": [
+		 {
+			 "name":		"Bryan Tong"
+			,"email":		"contact@nullivex.com"
+			,"homepage":	"http://bryantong.com"
+		}
+		,{
+			 "name":		"Tony Butler"
+			,"email":		"spudz76@gmail.com"
+			,"homepage":	"http://openlss.org"
+		}
+	]
+	,"require": {
+		"php":	">=5.3.2"
+	}
+}
