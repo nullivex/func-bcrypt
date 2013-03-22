@@ -18,6 +18,7 @@ if(!bcrypt_check('password',$crypted)){
 	echo "Authorization Denied";
 	exit;
 }
+```
 
 Reference
 ====
