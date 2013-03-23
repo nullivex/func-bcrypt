@@ -2,7 +2,7 @@
 	 "name":				"openlss/func-bcrypt"
 	,"homepage":			"http://openlss.org"
 	,"description":			"Blowfish Crypt helpers for password hashing"
-	,"license":				"LGPLv2"
+	,"license":				"LGPL-3.0+"
 	,"type":				"library"
 	,"keywords": [
 		 "blowfish"
