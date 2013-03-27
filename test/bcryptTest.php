@@ -21,8 +21,7 @@
 namespace LSS;
 
 require_once(dirname(__DIR__).'/vendor/autoload.php');
-require_once('boot.php');
-ld('/func/bcrypt');
+require_once('lss_boot.php');
 
 class FuncBcryptTest extends \PHPUNIT_Framework_TestCase {
 

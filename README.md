@@ -11,8 +11,6 @@ BCrypt hashed passwords are stronger and have inline salting.
 Usage
 ====
 ```php
-ld('func/bcrypt');
-
 $crypted = bcrypt('password');
 if(!bcrypt_check('password',$crypted)){
 	echo "Authorization Denied";
