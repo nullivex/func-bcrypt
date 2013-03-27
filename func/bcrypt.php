@@ -17,8 +17,7 @@
  *	You should have received a copy of the 
  *	GNU Lesser General Public License along with OpenLSS.
  *	If not, see <http://www.gnu.org/licenses/>.
-*/
-namespace LSS;
+ */
 
 // Blowfish password encryption basics
 define("BLOWFISH_CRYPT_PRELUDE",'$2a$12$');
