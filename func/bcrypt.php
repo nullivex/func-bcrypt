@@ -50,5 +50,5 @@ function bcrypt($plaintext,$seed=''){
 }
 
 function bcrypt_check($plaintext,$crypted){
-	return ($crypted === bcrypt($plaintext,$crypted))?true:false;
+	return $crypted === bcrypt($plaintext,$crypted);
 }
